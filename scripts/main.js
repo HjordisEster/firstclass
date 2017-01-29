@@ -36,9 +36,15 @@ lion.mynd.style.top = "334px";
 lion.mynd.style.left = "863px";
 lion.mynd.style.height = "40%";
 
+const cat = new ImgPicture("img/cat.png")
+cat.mynd.style.position = "absolute";
+cat.mynd.style.top = "634px";
+cat.mynd.style.left = "863px";
+cat.mynd.style.height = "40%";
+
 chair.mynd.addEventListener("click", function(){
   loadDogSound("chair.mp3");
-  
+
   chair.play();
   chair.delaySound(2.0);
   chair.play();
